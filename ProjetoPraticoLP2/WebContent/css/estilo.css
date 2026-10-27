@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7f6;
+    color: #173c38;
+}
+
+.container {
+    width: min(960px, 92%);
+    margin: 0 auto;
+}
+
+.topo {
+    padding: 28px 0;
+    background: #0c4c45;
+    color: white;
+}
+
+.topo h1 {
+    margin: 0 0 6px;
+}
+
+.topo p {
+    margin: 0;
+    opacity: .85;
+}
+
+main.container {
+    min-height: 65vh;
+    padding: 40px 0;
+}
+
+.card {
+    margin-bottom: 22px;
+    padding: 24px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .08);
+}
+
+.status {
+    font-weight: bold;
+}
+
+.erro {
+    border-left: 5px solid #8a2424;
+}
+
+.rodape {
+    padding: 20px 0;
+    background: #092f2b;
+    color: white;
+}
